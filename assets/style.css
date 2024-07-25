@@ -251,7 +251,7 @@ footer{
 	text-align: center;
 	justify-content: center;
 	padding: 1.875em 0;
-	p {
+	p, span {
 		margin-bottom: 0.625em;
 		font-size: 1.25em;
 		a {
@@ -372,7 +372,7 @@ footer{
 	}
 	footer {
 		margin-top: 1.875em;
-		p {
+		p, span{
 			font-size: 1em;
 		}
 	}
