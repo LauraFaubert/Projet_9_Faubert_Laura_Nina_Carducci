@@ -2,6 +2,9 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icone onglet-->
+    <link rel="shortcut icon" href="./assets/images/favicon32x32.ico" />
     <title>Nina Carducci - Photographe professionnel, Bordeaux</title>
     <meta
       name="description"
@@ -11,7 +14,77 @@
       name="copyright"
       content="© 2024 Nina Carducci. Tous droits réservés."
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta données pour le référencement facebook-->
+    <meta
+      property="og:title"
+      content="Nina Carducci - Photographe professionnel - Bordeaux"
+    />
+    <meta
+      property="og:description"
+      content="site web de Nina Carducci, photographe qui transforme vos moments en souvenirs inoubliables."
+    />
+    <meta
+      property="og:image"
+      content="https://laurafaubert.github.io/Projet_9_Faubert_Laura_Nina_Carducci/assets/images/nina.webp"
+    />
+    <meta
+      property="og:url"
+      content="https://laurafaubert.github.io/Projet_9_Faubert_Laura_Nina_Carducci/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <!-- Meta données pour le référencement twitter-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Nina Carducci - Photographe professionnel - Bordeaux"
+    />
+    <meta
+      name="twitter:description"
+      content="Site web de Nina Carducci, photographe qui transforme vos moments en souvenirs inoubliables."
+    />
+    <meta
+      property="twitter:image"
+      content="https://laurafaubert.github.io/Projet_9_Faubert_Laura_Nina_Carducci/assets/images/nina.webp"
+    />
+    <!-- Information pour schéma.org-->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "description": "Nina Carducci est une photogrape située à Bordeaux. Elle transforme vos moments en souvenirs inoubliables.",
+        "image": "./assets/images/nina.webp",
+        "url": "https://ninacarducci.github.io/",
+        "priceRange": "50€-400€",
+        "telephone": "+0556677889",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+        },
+
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo"]
+      }
+    </script>
+
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" defer />
@@ -305,7 +378,11 @@
       </div>
       <div id="about">
         <div class="picture left">
-          <img src="./assets/images/nina.webp" alt="Photo de Nina Carducci" />
+          <img
+            src="./assets/images/nina.webp"
+            alt="Photo de Nina Carducci"
+            loading="lazy"
+          />
         </div>
         <div id="about-me">
           <h2 class="about-me__title">A propos de moi</h2>
